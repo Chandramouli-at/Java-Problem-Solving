@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Palindrome1 {
 
     public static void main(String[] args){
-
         System.out.print("Enter the String: ");
         Scanner input = new Scanner(System.in);
         String palindrome = input.nextLine();
