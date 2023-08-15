@@ -25,8 +25,13 @@ public class Palindrome1 {
         }
 
         String reversePalindrome = new String(reverse);
+
+//        Or use printf()
+        String resultPass = String.format("%s is a Palindrome",palindrome);
+        String resultFail = String.format("%s is not a Palindrome",palindrome);
+
         System.out.println("String: " + palindrome + ", Reverse: " + reversePalindrome);
-        if(palindrome.equals(reversePalindrome)) System.out.println("It is Palindrome!");
-        else System.out.println("It is not a Palindrome!");
+        if(palindrome.equals(reversePalindrome)) System.out.println(resultPass);
+        else System.out.println(resultFail);
     }
 }
