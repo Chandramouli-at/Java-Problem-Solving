@@ -1,4 +1,4 @@
-package HelloWorld;
+package com.chandramouli.javaprogramsolving.helloworld;
 
 public class HelloWorld {
 
