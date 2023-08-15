@@ -15,9 +15,10 @@ public class Palindrome1 {
         char[] temp = new char[len];
         char[] reverse = new char[len];
 
-        for (int i=0; i<len; i++){
-            temp[i] = palindrome.charAt(i);
-        }
+//        for (int i=0; i<len; i++){
+//            temp[i] = palindrome.charAt(i);
+//        }
+        palindrome.getChars(0,len,temp,0);
 
         for (int i=0; i<len; i++){
             reverse[i] = temp[(len-1) - i];
